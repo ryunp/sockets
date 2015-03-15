@@ -4,7 +4,7 @@ node client.js
 
 *Sending a blank line ('\n' character, or Enter) will terminate the client's connection*
 
-Output Example of server and client panes decending in chronological order:
+Output example of server and client panes decending in chronological order:
 
 | Server Pane | Client Pane |
 |---|---|
