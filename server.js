@@ -23,16 +23,6 @@ server.on('connection', function(socket) {
 		log('Server', 'Connection closed!');
 	});
 });
-/*
-server.on('data', function(chunk) {
-	log('Server on', 'data - ' + chunk.toString());
-	server.write('OK! #' + count);
-});
-
-server.on('end', function() {
-	log('Server', 'Connection closed!');
-});
-*/
 
 function log(prefix, msg) {
 	console.log(prefix + ': ' + msg);
