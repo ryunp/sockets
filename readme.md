@@ -1,5 +1,5 @@
 **Description:**  
-TCP Sockets are used for network connections allowing transfer of data. Implemented in NodeJS. Working on python version.
+TCP Sockets are used for network connections allowing transfer of data. Implemented in NodeJS on Debian based GNU/Linux host. Working on python version.
 [Standard protocol of communication](http://en.wikipedia.org/wiki/Berkeley_sockets#/media/File:InternetSocketBasicDiagram_zhtw.png) exists to ensure proper synchronization between hosts. My example workflow below is modeled after this same diagram.
 
 **Usage:**  
@@ -10,7 +10,7 @@ node client.js
 
 Output example of server and client panes decending in chronological order:
 
-| Server Pane | Client Pane |
+| Server Terminal | Client Terminal |
 |---|---|
 | user@rNB-u64:~/node/sockets$ node server.js 6969 | |
 | Server: started on port 6969 | |
