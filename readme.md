@@ -22,11 +22,11 @@ Output example of server and client interaction decending in chronological order
 | | Enter data: **session 1 msg 1** |
 | | Client: sending [15] session 1 msg 1 ... |
 | Server: incoming data [15]: session 1 msg 1 |  |
-| | Client: server response: Request #1 - session 1 msg 1 ... |
+| | Client: server response: Connection #1 - session 1 msg 1 ... |
 | | Enter data: **session 1 msg 2** |
 | | Client: sending [15] session 1 msg 2 ... |
 | Server: incoming data [15]: session 1 msg 2 | |
-| | Client: server response: Request #1 - session 1 msg 2 ... |
+| | Client: server response: Connection #1 - session 1 msg 2 ... |
 | | Enter data: |
 | Server: Connection closed! | |
 | | Client: Connection closed |
@@ -36,11 +36,11 @@ Output example of server and client interaction decending in chronological order
 | | Enter data: **session 2 msg 1** |
 | | Client: sending [15] session 2 msg 1 ... |
 | Server: incoming data [15]: session 2 msg 1 | |
-| | Client: server response: Request #2 - session 2 msg 1 ... |
+| | Client: server response: Connection #2 - session 2 msg 1 ... |
 | | Enter data: **session 2 msg 2** |
 | | Client: sending [15] session 2 msg 2 ... |
 | Server: incoming data [15]: session 2 msg 2 | |
-| | Client: server response: Request #2 - session 2 msg 2 ... |
+| | Client: server response: Connection #2 - session 2 msg 2 ... |
 | | Enter data: |
 | Server: Connection closed! | |
 | | Client: Connection closed |
