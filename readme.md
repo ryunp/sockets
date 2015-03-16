@@ -8,13 +8,13 @@ node client.js
 
 *Sending a blank line ('\n' character, or Enter) will terminate the client's connection*
 
-Output example of server and client interaction decending in chronological order:
+Output example of server and client interaction decending in chronological order (**input text bolded**):
 
 | Server Terminal (server.js) | Client Terminal (client.js) |
 |---|---|
 | user@rNB-u64:~/node/sockets$ **node server.js 6969** | |
 | Server: started on port 6969 | |
-| | user@rNB-u64:~/node/sockets$ node client.js |
+| | user@rNB-u64:~/node/sockets$ **node client.js** |
 | Server: connection from 127.0.0.1:49662 | |
 | | Client: Connected to localhost:6969 |
 | | Enter data: **session 1 msg 1** |
