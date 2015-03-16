@@ -3,14 +3,14 @@ TCP Sockets are used for network connections allowing transfer of data. Implemen
 [Standard protocol of communication](http://en.wikipedia.org/wiki/Berkeley_sockets#/media/File:InternetSocketBasicDiagram_zhtw.png) exists to ensure proper synchronization between hosts. My example workflow below is modeled after this same diagram.
 
 **Usage:**  
-node server.js [port]
+node server.js [port]  
 node client.js
 
 *Sending a blank line ('\n' character, or Enter) will terminate the client's connection*
 
-Output example of server and client panes decending in chronological order:
+Output example of server and client interaction decending in chronological order:
 
-| Server Terminal | Client Terminal |
+| Server Terminal (server.js) | Client Terminal (client.js) |
 |---|---|
 | user@rNB-u64:~/node/sockets$ node server.js 6969 | |
 | Server: started on port 6969 | |
