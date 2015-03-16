@@ -17,7 +17,7 @@ server.on('connection', function(socket) {
 	socket.on('data', function(chunk) {
 		var data = chunk.toString();
 		log('Server', 'incoming data [' + data.length + ']: ' + data);
-		socket.write('Request #' + count + ' ' + data.substr(0,20) + ' ...');
+		socket.write('Connection #' + count + ' ' + data.substr(0,20) + ' ...');
 	});
 	socket.on('end', function() {
 		log('Server', 'Connection closed!');
