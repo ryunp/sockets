@@ -8,7 +8,9 @@ node client.js
 
 *Sending a blank line ('\n' character, or Enter) will terminate the client's connection*
 
-Output example of server and client interaction decending in chronological order (**input text**, [xx] =character count):
+Output example of server and client interaction decending in chronological order  
+**boldt** = input text  
+[xx] = character count
 
 | Server Terminal (server.js) | Client Terminal (client.js) |
 |---|---|
